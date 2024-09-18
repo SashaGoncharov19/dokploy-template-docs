@@ -22,6 +22,16 @@ export const en = defineConfig({
             { icon: 'github', link: 'https://github.com/Dokploy/dokploy' }
         ],
 
+        editLink: {
+            pattern: 'https://github.com/SashaGoncharov19/dokploy-template-docs/edit/main/:path',
+            text: 'Edit this page on GitHub'
+        },
+
+        footer: {
+            message: 'Created for Dokploy.',
+            copyright: 'By SashaGoncharov19 💕'
+        },
+
         outline: { label: 'On this page' },
 
         docFooter: {
