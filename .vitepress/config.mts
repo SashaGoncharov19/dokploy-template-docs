@@ -10,6 +10,8 @@ export default defineConfig({
   cleanUrls: true,
   metaChunk: true,
 
+  base: '/dokploy-template-docs/',
+
   rewrites: {
     'en/:rest*': ':rest*'
   },
