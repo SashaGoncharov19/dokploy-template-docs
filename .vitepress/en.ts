@@ -14,6 +14,7 @@ export const en = defineConfig({
                 text: 'Templates',
                 items: [
                     { text: 'Mail Server', link: '/mail-server' },
+                    { text: 'ERPNext', link: '/erpnext' },
                 ]
             }
         ],
